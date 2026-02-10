@@ -2,14 +2,7 @@
 
 <img width="539" height="144" alt="image" src="https://github.com/user-attachments/assets/d200ec81-1133-4a04-aae3-4890aed5534a" />
 
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daty php</title>
-</head>
-<body>
+
     <?php
     // Zadanie 1
         $miesiace = [
@@ -61,5 +54,4 @@
         echo "Od początku roku upłynęło: <strong>" . $dni_uplynelo . " dni</strong><br>";
         echo "Do końca roku pozostało: <strong>" . $dni_do_konca . " dni</strong>";
     ?>
-</body>
-</html>
+
